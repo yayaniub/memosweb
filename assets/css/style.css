@@ -74,9 +74,7 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     margin: 0;
 }
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
-        Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei",
-        "Microsoft Yahei", "Segoe UI", sans-serif, serif;
+    font-family: "LXGW WenKai Screen", sans-serif;
     color: var(--color-main);
     background-color: var(--color-background);
     box-sizing: border-box;
