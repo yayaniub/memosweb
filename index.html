@@ -6,14 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="referrer" content="no-referrer">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
     <link rel="icon" href="/assets/img/logo.webp" type="image/*" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="assets/css/APlayer.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/highlight.github.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
     <title>记录每一个瞬间</title>
-
+    
+    <style>
+      body{
+       font-family: "LXGW WenKai Screen", sans-serif !important;}
+      .status-text{font-size:10px !important;border:none;color:rgb(156,163,175) !important;}
+      .tag-span,.dark .tag-span{border: 1px solid;border-radius:6px;padding:0px 6px;color:rgb(22,163,74) !important;font-size:12px !important;-webkit-transform: scale(calc(10 / 12));transform-origin: left center;}
+      .memo-content-text .link{color:rgb(22,163,74) !important;margin-right:-6px;}
+      header .bg-blue-600{display:none !important;}
+      .text-lg {font-size: 1rem !important;}
+      .header-wrapper,.sidebar-wrapper{width: 11rem !important;}
+      .filter-query-container{padding-bottom:0.5rem;}
+    <style>
 </head>
 
 <body>
@@ -81,6 +91,19 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script>hljs.highlightAll();</script>
+        
+    <script type="text/javascript">
+      function changeFont() {
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = "https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.css";
+        document.head.append(link);
+      };
+      changeFont()
+
+    </script>
+       
 </body>
 
 </html>
