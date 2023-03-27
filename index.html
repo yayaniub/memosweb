@@ -11,29 +11,19 @@
     <link href="assets/css/APlayer.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/highlight.github.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
-    <title>记录每一个瞬间</title>
-    
-    <style>
-      body{
-       font-family: "LXGW WenKai Screen", sans-serif !important;}
-      .status-text{font-size:10px !important;border:none;color:rgb(156,163,175) !important;}
-      .tag-span,.dark .tag-span{border: 1px solid;border-radius:6px;padding:0px 6px;color:rgb(22,163,74) !important;font-size:12px !important;-webkit-transform: scale(calc(10 / 12));transform-origin: left center;}
-      .memo-content-text .link{color:rgb(22,163,74) !important;margin-right:-6px;}
-      header .bg-blue-600{display:none !important;}
-      .text-lg {font-size: 1rem !important;}
-      .header-wrapper,.sidebar-wrapper{width: 11rem !important;}
-      .filter-query-container{padding-bottom:0.5rem;}
-    <style>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+    <title>Memos Top</title>
+
 </head>
 
 <body>
     <header>
         <div class="menu">
-            <div class="title">说说</a></div>
+            <div class="title">Memos</a></div>
 
             <div class="pages">
-                    <a href="https://github.com/eallion/memos.top" target="_blank" rel="noopener noreferrer" class="">博客</a>
-                    <a href="https://eallion.com/memos" target="_blank" rel="noopener noreferrer" class="">Memos</a>
+                    <a href="https://github.com/eallion/memos.top" target="_blank" rel="noopener noreferrer" class="">GitHub</a>
+                    <a href="https://eallion.com/memos" target="_blank" rel="noopener noreferrer" class="">I'm Feeling Lucky</a>
             </div>
 
         </div>
@@ -74,8 +64,8 @@
             limit: '10',  //默认每次显示 10条
             creatorId: '1',  //默认为 101用户 https://demo.usememos.com/u/101
             domId: '#memos',  //默认为 #memos
-            username: 'PGY',  //发布者 ID 自定义
-            name: 'PGY',  //发布者全称自定义
+            username: 'memos',  //发布者 ID 自定义
+            name: 'Official Demo',  //发布者全称自定义
         }
 
     </script>
@@ -91,19 +81,6 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script>hljs.highlightAll();</script>
-        
-    <script type="text/javascript">
-      function changeFont() {
-        const link = document.createElement("link");
-        link.rel = "stylesheet";
-        link.type = "text/css";
-        link.href = "https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.css";
-        document.head.append(link);
-      };
-      changeFont()
-
-    </script>
-       
 </body>
 
 </html>
