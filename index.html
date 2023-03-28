@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="referrer" content="no-referrer">
     <link rel="icon" href="/assets/img/logo.webp" type="image/*" />
-    <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
     <link href="assets/css/APlayer.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/highlight.github.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
@@ -23,6 +23,8 @@
 
             <div class="pages">
                     <a href="https://memos.pgyu.org" target="_blank" rel="noopener noreferrer" class="">博客</a>
+                    <a href="https://github.com/eallion/memos.top" target="_blank" rel="noopener noreferrer" class="">GitHub</a>
+                    <a href="https://eallion.com/memos" target="_blank" rel="noopener noreferrer" class="">I'm Feeling Lucky</a>
             </div>
 
         </div>
@@ -34,6 +36,11 @@
     <section id="main" class="container">
         <h1>哔哔点啥</h1>
 
+        <blockquote>
+            <p>Je <del>memos</del>, donc je suis - <em>René Descartes fans</em></p>
+        </blockquote>
+
+        <div class="total">Total <span id="total">0</span> Memos 🎉</div>
 
         <div id="memos" class="memos">
             <!-- Memos Container -->
@@ -42,7 +49,12 @@
     </section>
 
     <footer class="markdown-body footer">
-        <p>所有 Memo 已就绪 🎉</p>
+        <p>Copyright @
+            <script>
+                document.write(new Date().getFullYear())
+            </script><a href="https://eallion.com/" target="_blank" rel="noopener noreferrer" class="hidden">Charles
+                'eallion' Chin</a> All Rights Reserved.
+        </p>
 
     </footer>
 
