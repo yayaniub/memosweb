@@ -395,7 +395,7 @@ blockquote {
 .post-preview--image {
     margin: 0 !important;
     height: 210px !important;
-    width: 210px;
+    width: auto;
     float: right;
     border-radius: 0 !important;
     border-top-right-radius: 2px !important;
