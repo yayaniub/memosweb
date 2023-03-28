@@ -315,7 +315,7 @@ blockquote {
 .timeline img {
     display: block;
     max-height: 50vh;
-    max-width: 100%;
+    max-width: 50vh;
     margin: 10px 0;
     border-radius: 16px;
     border: 1px solid var(--color-img-border);
