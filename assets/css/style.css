@@ -548,8 +548,8 @@ blockquote {
 
 .video-wrapper iframe {
     border: 0;
-    max-height: 50vh;
-    max-width: 50vh;
+    max-height: 70vh;
+    max-width: 70vh;
     left: 0;
     position: absolute;
     top: 0;
