@@ -539,7 +539,7 @@ blockquote {
 }
 
 .video-wrapper {
-    height: 30vh;
+    max-height: 50vh;
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
@@ -548,7 +548,7 @@ blockquote {
 
 .video-wrapper iframe {
     border: 0;
-    max-height: 30vh;
+    max-height: 50vh;
     max-width: 50vh;
     left: 0;
     position: absolute;
