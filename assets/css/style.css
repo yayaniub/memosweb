@@ -543,16 +543,16 @@ blockquote {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 
 .video-wrapper iframe {
     border: 0;
-    height: 50%;
+    height: 100%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 100%;
 }
 
 footer {
