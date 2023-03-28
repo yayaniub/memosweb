@@ -539,21 +539,20 @@ blockquote {
 }
 
 .video-wrapper {
-    max-height: 50vh;
+    height: 0;
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    width: 100%;
+    width: 50%;
 }
 
 .video-wrapper iframe {
     border: 0;
-    max-height: 70vh;
-    max-width: 70vh;
+    height: 50%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 50%;
 }
 
 footer {
