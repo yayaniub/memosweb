@@ -104,6 +104,7 @@ header {
 .pages a {
     color: var(--color-main);
     text-decoration: none;
+    margin-left: 4rem;
 }
 
 .pages a:hover {
