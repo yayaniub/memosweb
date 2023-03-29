@@ -360,7 +360,7 @@ blockquote {
 .resimg img {
     display: block;
     vertical-align: middle;
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     min-height: 100%;
     width: auto;
