@@ -104,7 +104,7 @@ header {
 .pages a {
     color: var(--color-main);
     text-decoration: none;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 .pages a:hover {
@@ -352,7 +352,7 @@ blockquote {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
     -ms-overflow-style: none;
     scrollbar-width: none;
-    height: 190px;
+    height: 180px;
 }
 
 .resimg img {
